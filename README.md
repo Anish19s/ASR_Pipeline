@@ -62,9 +62,9 @@ The processed chunks are passed through pretrained Whisper models for transcript
 
 FastAPI exposes endpoints for:
 
--Uploading audio
--Running inference
--Returning transcribed text
+- Uploading audio
+- Running inference
+- Returning transcribed text
 
 ---
 
