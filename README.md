@@ -1,4 +1,4 @@
-#ASR Pipeline using OpenAI Whisper
+# ASR Pipeline using OpenAI Whisper
 
 A complete Automatic Speech Recognition (ASR) pipeline built using OpenAI Whisper, covering everything from:
 -Audio loading & preprocessing
@@ -13,7 +13,7 @@ This project was built to deeply understand how modern speech recognition system
 
 ---
 
-##Features
+## Features
 
 ✅ Audio transcription using Whisper
 ✅ Chunking support for long audio files
@@ -26,7 +26,7 @@ This project was built to deeply understand how modern speech recognition system
 
 ---
 
-##Tech Stack
+## Tech Stack
 -Python
 -OpenAI Whisper
 -Transformers
@@ -38,6 +38,7 @@ This project was built to deeply understand how modern speech recognition system
 
 ---
 
+'''
 ASR_Pipeline/
 │
 ├── asrpipeline.ipynb
@@ -57,10 +58,10 @@ ASR_Pipeline/
 │   └── requirements.txt
 │
 └── README.md
-
+'''
 ---
 
-##How It Works:
+## How It Works:
 1️⃣ Audio Input
 
 The pipeline accepts:
@@ -88,7 +89,7 @@ FastAPI exposes endpoints for:
 
 ---
 
-##What I Learned
+## What I Learned
 
 Through this project, I explored:
 
