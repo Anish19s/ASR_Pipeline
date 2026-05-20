@@ -2,7 +2,6 @@ from fastapi import FastAPI,UploadFile
 import librosa
 import os
 import torch
-from model import transcribe
 
 app=FastAPI()
 UPLOADED_DIR="uploads"
@@ -14,6 +13,8 @@ def home():
 
 @app.post("/transcribe")
 async def trans_audio(file:UploadFile):
+    from model import transcribe
+
     file_path=f"{UPLOADED_DIR}/{file.filename}"
 
     with open(file_path,"wb") as f:
