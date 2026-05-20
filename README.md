@@ -45,6 +45,7 @@ The pipeline accepts:
 
 - Audio files
 - Live microphone input
+  
 2️ Preprocessing
 
 Audio is:
@@ -52,6 +53,7 @@ Audio is:
 - Loaded
 - Converted
 - Chunked for long-duration handling
+  
 3️ Whisper Inference
 
 The processed chunks are passed through pretrained Whisper models for transcription.
